@@ -36,12 +36,12 @@ class Game
 
       puts "Player#{@current_player.id}, you're up!"
 
-      ##Ask Question
+      #Ask Question
       puts "What does #{@current_question.new_question} equal?"
       puts '>> '
       @answer = $stdin.gets.chomp.to_i
 
-      ##Check Answer
+      #Check Answer
       if @current_question.check_answer(@answer)
         puts "Player#{@current_player.id}: CORRECT ANSWER!"
       else
