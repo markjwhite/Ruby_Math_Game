@@ -1,0 +1,19 @@
+Classes:
+
+Player Class
+-player name
+-player score
+-add point METHOD
+-subtract point METHOD
+-get score METHOD
+
+Questions Class
+-random number generator
+-question string including random numbers
+
+Game Class
+-Game logic goes here
+-Asks questions by accessing question Class
+-answers are grabbed by user input $std.in.gets.chomp
+-Checks answers to questions and updates player score
+- Checks for player score to determine winner
